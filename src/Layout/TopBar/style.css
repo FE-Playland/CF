@@ -1,0 +1,30 @@
+.top-bar-menu-toggle {
+	display: none !important;
+}
+
+.top-bar-theme-switch-mobile {
+	display: none !important;
+}
+
+.top-bar-menu-actions {
+	margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+	.top-bar-menu-links {
+		display: none !important;
+	}
+
+	.top-bar-menu-actions {
+		display: none !important;
+	}
+
+	.top-bar-menu-toggle {
+		display: inline-flex !important;
+	}
+
+	.top-bar-theme-switch-mobile {
+		margin-left: auto !important;
+		display: inline-flex !important;
+	}
+}

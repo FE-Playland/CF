@@ -1,0 +1,30 @@
+.poolcard-container-ready {
+	width: 100%;
+	min-height: 106px;
+	padding: 16px 48px 16px 32px;
+	border-radius: 18px;
+	position: relative;
+	display: grid;
+	grid-template-columns: .7fr 1.5fr 1.8fr 2fr;
+	border: 1px solid #f087ad;
+	box-shadow: inset 0 0 1px 0 #f087ad, 0 0 1px 0 #f087ad;
+	grid-template-areas: "icon label rates return"
+										   "icon label rates return"
+										   "icon label rates return"
+}
+
+.poolcard-container:hover {
+	background-color: #262626;
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+.poolcard-detail-apy {
+	font-size: 24px;
+	font-weight: bolder;
+	text-shadow: 0 0 12px #4ed8de;
+	color: #4ed8de;
+	text-align: end;
+}
